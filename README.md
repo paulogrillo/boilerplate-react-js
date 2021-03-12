@@ -1,5 +1,5 @@
-# Foobar
-Boilerplate: Js,React, Babel, Webpack
+# Boilerplate: Js,React, Babel, Webpack
+
 
 ## Installation
 
