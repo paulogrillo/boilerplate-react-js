@@ -1,6 +1,12 @@
-interface = 
+interface RepositoryItemsProps {
+    repository: {
+        name: string;
+        description: string;
+        html_url: string;
+    }
+} 
 
-export function RepositoryItem(props){
+export function RepositoryItem(props: RepositoryItemsProps){
     return(
         <li>
             <strong>{props.repository.name}</strong>
@@ -9,6 +15,7 @@ export function RepositoryItem(props){
             <a href={props.repository.html_url}>
                 Acessar repositório
             </a>
+
         </li>
     );
 }
